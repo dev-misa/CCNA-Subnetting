@@ -59,7 +59,7 @@ public class Subnet {
         return suffix;
     }
     public void printInfo(){
-        System.out.printf("Prefix: /%d%nSubnet Mask: %s%nTotal Hosts: %,d%nUsable Hosts: %,d%n",
+        System.out.printf("%nPrefix: /%d%nSubnet Mask: %s%nTotal Hosts: %,d%nUsable Hosts: %,d%n",
                 getPrefix(),calcSubnetMask(),calcTotalHosts(),calcUsableHosts());
     }
 }
